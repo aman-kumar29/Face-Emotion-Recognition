@@ -1,18 +1,9 @@
 """ importing the necessary libraries"""
 import cv2
-from tensorflow.keras.applications import VGG16, InceptionResNetV2
-from tensorflow.keras.callbacks import EarlyStopping
-from tensorflow.keras.callbacks import ModelCheckpoint, ReduceLROnPlateau
 from tensorflow.keras.models import load_model
 from keras import regularizers
-from tensorflow.keras.optimizers import Adam,RMSprop,SGD,Adamax
 import matplotlib.pyplot as plt
-
-import itertools
-import matplotlib.pyplot as plt
-import seaborn as sns
 import tensorflow as tf
-
 import keras
 from keras import models
 
