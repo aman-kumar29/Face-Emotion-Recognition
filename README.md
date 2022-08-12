@@ -1,6 +1,10 @@
 # Emotion_Detection_CNN-IITISoc2022
 
-samples/emotion detection result.mp4
+
+https://user-images.githubusercontent.com/99892898/184360442-ba8d69cd-f636-4cdc-9b7c-d2c6150e0b6f.mp4
+
+
+
 
 ## Packages need to be installed
 - pip install numpy
