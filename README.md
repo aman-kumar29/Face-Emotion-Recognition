@@ -1,6 +1,6 @@
 # Emotion_Detection_CNN-IITISoc2022
 
-![emotion_detection](https://github.com/datamagic2020/Emotion_detection_with_CNN/blob/main/emoition_detection.png)
+![emotion_detection](samples/emotion detection result.mp4)
 
 ## Packages need to be installed
 - pip install numpy
