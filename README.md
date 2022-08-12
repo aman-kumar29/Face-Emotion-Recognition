@@ -1,10 +1,4 @@
-# Emotion_Detection_CNN-IITISoc2022
-
-
-https://user-images.githubusercontent.com/99892898/184361402-13b8b507-b4a8-42b7-ba8b-eb34ed96a73a.mp4
-
-
-
+# Face Emotion Detection System
 ## Packages need to be installed
 - Numpy
 - CV2
@@ -17,16 +11,29 @@ https://user-images.githubusercontent.com/99892898/184361402-13b8b507-b4a8-42b7-
 
 
 ## All the folders in the directory:
-1. harcascade- 
-2. models- contains the final .json file and model weights we used in our final inference.py and live_emotion_detection.py file. 
+1. **harcascade**- An xml file which is an Object Detection Algorithm used to identify faces in an image or a real time video. 
+2. **models**- contains the final .json file and model weights we used in our final inference.py and live_emotion_detection.py file. 
    emotion_model.json
    emotion_model_weights.h5
-4. samples- contains the video we found on internet on which we tested our face recognition and emotion detection on using live_emotion_detection.py file.
-5. face_emotion_recognition.ipynb file if the final jupyter notebook we trained on giving all the details including confusionn matrix and dataset breifing.
+4. **samples**- contains the video we found on internet on which we tested our face recognition and emotion detection on using live_emotion_detection.py file.
+5. **face_emotion_recognition.ipynb** file if the final jupyter notebook we trained on giving all the details including confusionn matrix and dataset breifing.
+6. **inference.py**- An inference file used to check our model on a different dataset( we used CK+ dataset).
+7. **live_emotion_detection.py** - This python file is used for live detection using cmaera realtime. We have used a sample video in it to show the outputs given by our model.
 
-It will take several hours depends on your processor. (On i7 processor with 16 GB RAM it took me around 4 hours)
+## Optimizers  Used
+ We trained our model uisng different optimizers including **Adam, Adamax, RMSprop**.
+ After evaluation the best one turned out to be **Adam**.
+ 
+## Model without transfer learning(not final)
+-https://www.kaggle.com/code/amankumar2004/emotion-detection-iitisoc-2022
+ 
+## Transfer Learning 
+ We used many different pretrained models namely **Resnet50, VGG16, InceptionResnetV2**
+ We chose **Resnet50** as the best pretrained model after comparing different metrics
+## Final Parameters
 
 |   Train_acc   |    Train_loss   |    Val_acc      |    Val_loss     |    F1_score     |
 | :------------ |:---------------:|:---------------:|:---------------:|:---------------:|
 |   84.09%      |    0.9372       |    65.60%       |    1.117        |    0.486569     |
-| :------------ |:---------------:|:---------------:|:---------------:|:---------------:|
+
+https://user-images.githubusercontent.com/99892898/184361402-13b8b507-b4a8-42b7-ba8b-eb34ed96a73a.mp4
