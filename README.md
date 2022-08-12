@@ -1,6 +1,6 @@
 # Emotion_Detection_CNN-IITISoc2022
 
-![emotion_detection](samples/emotion detection result.mp4)
+samples/emotion detection result.mp4
 
 ## Packages need to be installed
 - pip install numpy
