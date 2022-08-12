@@ -1,17 +1,16 @@
 # Emotion_Detection_CNN-IITISoc2022
 
 
-https://user-images.githubusercontent.com/99892898/184360442-ba8d69cd-f636-4cdc-9b7c-d2c6150e0b6f.mp4
-
+https://user-images.githubusercontent.com/99892898/184361402-13b8b507-b4a8-42b7-ba8b-eb34ed96a73a.mp4
 
 
 
 ## Packages need to be installed
-- pip install numpy
-- pip install opencv-python
-- pip install keras
-- pip3 install --upgrade tensorflow
-- pip install pillow
+- Numpy
+- CV2
+- keras
+- tensorflow
+- intrtools
 
 ## Kaggle Code link
 - https://www.kaggle.com/code/amankumar2004/emotion-detection-recognition
