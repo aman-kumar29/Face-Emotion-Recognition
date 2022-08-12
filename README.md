@@ -2,27 +2,23 @@
 
 ![emotion_detection](https://github.com/datamagic2020/Emotion_detection_with_CNN/blob/main/emoition_detection.png)
 
-### Packages need to be installed
+## Packages need to be installed
 - pip install numpy
 - pip install opencv-python
 - pip install keras
 - pip3 install --upgrade tensorflow
 - pip install pillow
 
-### download FER2013 dataset
-- from below link and put in data folder under your project directory
+## Kaggle Code link
 - https://www.kaggle.com/code/amankumar2004/emotion-detection-recognition
 
-### Train Emotion detector
-- with all face expression images in the FER2013 Dataset
-- command --> python TranEmotionDetector.py
+
+## All the folders in the directory:
+1. harcascade- 
+2. models- contains the final .json file and model weights we used in our final inference.py and live_emotion_detection.py file. 
+   emotion_model.json
+   emotion_model_weights.h5
+4. samples- contains the video we found on internet on which we tested our face recognition and emotion detection on using live_emotion_detection.py file.
+5. face_emotion_recognition.ipynb file if the final jupyter notebook we trained on giving all the details including confusionn matrix and dataset breifing.
 
 It will take several hours depends on your processor. (On i7 processor with 16 GB RAM it took me around 4 hours)
-after Training , you will find the trained model structure and weights are stored in your project directory.
-emotion_model.json
-emotion_model.h5
-
-copy these two files create model folder in your project directory and paste it.
-
-### run your emotion detection test file
-python TestEmotionDetector.py
