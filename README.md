@@ -39,3 +39,14 @@ Final Optimizer used -- **Adam**
 |   84.09%      |    0.9372       |    65.60%       |    1.117        |    0.486569     |
 
 https://user-images.githubusercontent.com/99892898/184361402-13b8b507-b4a8-42b7-ba8b-eb34ed96a73a.mp4
+
+
+#### Group Members
+1. Aman Kumar(210002012)
+2. Rishabh Patil(210002062)
+3. Parth Toshniwal(210002056)
+4. Prajwal Bastewad(210002021)
+
+## Group Mentor
+
+1.Atharva Mohite(200003016)
