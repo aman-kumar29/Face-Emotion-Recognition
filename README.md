@@ -11,7 +11,7 @@
 
 
 ## All the folders in the directory:
-1. **harcascade**- An xml file which is an Object Detection Algorithm used to identify faces in an image or a real time video. 
+1. **harcascade_frontalface_classifier**- An xml file which is an Object Detection Algorithm used to identify faces in an image or a real time video. 
 2. **models**- contains the final .json file and model weights we used in our final inference.py and live_emotion_detection.py file. 
    emotion_model.json
    emotion_model_weights.h5
@@ -31,6 +31,8 @@
  We used many different pretrained models namely **Resnet50, VGG16, InceptionResnetV2**
  We chose **Resnet50** as the best pretrained model after comparing different metrics
 ## Final Parameters
+Final Pretrained model-- **Resnet50**
+Final Optimizer used -- **Adam**
 
 |   Train_acc   |    Train_loss   |    Val_acc      |    Val_loss     |    F1_score     |
 | :------------ |:---------------:|:---------------:|:---------------:|:---------------:|
