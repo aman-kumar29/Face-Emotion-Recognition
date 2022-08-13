@@ -24,8 +24,6 @@
  We trained our model uisng different optimizers including **Adam, Adamax, RMSprop**.
  After evaluation the best one turned out to be **Adam**.
  
-## Model without transfer learning(not final)
--https://www.kaggle.com/code/amankumar2004/emotion-detection-iitisoc-2022
  
 ## Transfer Learning 
  We used many different pretrained models namely **Resnet50, VGG16, InceptionResnetV2**
